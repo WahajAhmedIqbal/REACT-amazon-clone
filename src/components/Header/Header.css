@@ -13,7 +13,22 @@
 }
 .header_search {
   display: flex;
+  flex: 1;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.search_input {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
 }
 .header_searchicon {
   background-color: #cd9042;
+  height: 22px !important;
+  padding: 5px;
 }
