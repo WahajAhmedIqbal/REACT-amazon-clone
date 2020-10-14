@@ -15,10 +15,39 @@
   display: flex;
   flex: 1;
 }
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 .header_nav {
   display: flex;
   justify-content: space-evenly;
+}
+
+.header_nav .header_link {
+  color: white;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.header_optionLineOne {
+  font-size: 15px;
+}
+.header_optionLineTow {
+  font-size: 15px;
+  font-weight: 800;
+}
+.header_optionBasket {
+  display: flex;
+  align-items: center;
+}
+.header_optionBasketCounter {
+  margin-right: 10px;
+  margin-left: 5px;
+  font-weight: 800;
 }
 
 .search_input {
