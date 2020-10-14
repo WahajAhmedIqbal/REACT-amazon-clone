@@ -7,7 +7,7 @@ import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 function Header() {
   return (
     <nav className="header">
-      <Link to="/login">
+      <Link to="/">
         <img
           className="header_logo"
           src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
@@ -21,7 +21,7 @@ function Header() {
       {/* 3 Links */}
       <div className="header_nav">
         {/* 1 link  */}
-        <Link to="/" className="header_link">
+        <Link to="/login" className="header_link">
           <div className="header_option">
             <span className="header_optionLineOne">Hello wahaj </span>
             <span className="header_optionLineTow">Sign </span>
