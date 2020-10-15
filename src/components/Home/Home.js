@@ -12,13 +12,54 @@ function Home() {
       />
 
       {/* Products */}
-      <Product
-        id="091"
-        title="Rich Dad Poor Dad"
-        price={11.08}
-        rating={3}
-        image="https://upload.wikimedia.org/wikipedia/en/9/99/How_to_Stop_Worrying_and_Start_Living.JPG"
-      />
+      <div className="home_row">
+        <Product
+          id="091"
+          title="Rich Dad Poor Dad"
+          price={11.08}
+          rating={4.44}
+          image="https://upload.wikimedia.org/wikipedia/en/9/99/How_to_Stop_Worrying_and_Start_Living.JPG"
+        />
+        <Product
+          id="091"
+          title="Rich Dad Poor Dad"
+          price={11.08}
+          rating={4.44}
+          image="https://upload.wikimedia.org/wikipedia/en/9/99/How_to_Stop_Worrying_and_Start_Living.JPG"
+        />
+      </div>
+      <div className="home_row">
+        <Product
+          id="091"
+          title="Rich Dad Poor Dad"
+          price={11.08}
+          rating={4.44}
+          image="https://upload.wikimedia.org/wikipedia/en/9/99/How_to_Stop_Worrying_and_Start_Living.JPG"
+        />
+        <Product
+          id="091"
+          title="Rich Dad Poor Dad"
+          price={11.08}
+          rating={4.44}
+          image="https://upload.wikimedia.org/wikipedia/en/9/99/How_to_Stop_Worrying_and_Start_Living.JPG"
+        />
+        <Product
+          id="091"
+          title="Rich Dad Poor Dad"
+          price={11.08}
+          rating={4.44}
+          image="https://upload.wikimedia.org/wikipedia/en/9/99/How_to_Stop_Worrying_and_Start_Living.JPG"
+        />
+      </div>
+      <div className="home_row">
+        <Product
+          id="091"
+          title="Rich Dad Poor Dad"
+          price={11.08}
+          rating={4.44}
+          image="https://upload.wikimedia.org/wikipedia/en/9/99/How_to_Stop_Worrying_and_Start_Living.JPG"
+        />
+      </div>
     </div>
   );
 }
