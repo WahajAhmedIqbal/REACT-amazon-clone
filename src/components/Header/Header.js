@@ -6,7 +6,7 @@ import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import { useStateValue } from "../StateProvider/StateProvider";
 
 function Header() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
 
   return (
     <nav className="header">
@@ -53,7 +53,7 @@ function Header() {
             {/* Shopping basket icon */}
             <ShoppingCartIcon />
             {/* Number of items in basket */}
-            <span className="header_optionBasketCounter">{basket.length}</span>
+            <span className="header_optionBasketCounter">{basket?.length}</span>
           </div>
         </Link>
       </div>
